@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    min-height: 100vh;
+    background: #031321;
+    font-family: consolas;
+    color: rgb(231, 223, 223);
+    background-image: url('slideshow30.jpg' );
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover ;
+  }
+  
+  a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+  }
+  
+  a:hover {
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  }
+  
+  .chat-container {
+    border: 2px solid #f3f3f3;
+    background-color: rgb(112, 10, 10);
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 60%;
+    
+  }
+  
+  .chat-container p {
+    background-color: white;
+    font-family: Helvetica;
+  }
+  
+  /* Darker chat container */
+  .darker {
+    border-color: rgb(211, 205, 205);
+    background-color: transparent;
+    margin: 10px;
+  }
+  
+  .darker p {
+    background-color: transparent;
+    
+  }
+  
+ 
+ 
+  
+ 
